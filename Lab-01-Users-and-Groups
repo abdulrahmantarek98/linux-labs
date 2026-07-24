@@ -1,0 +1,17 @@
+                                                  Lab 01 - Users and Groups
+
+------ Objective----------
+Learn how to create users and groups.
+## Commands
+
+```bash
+useradd testuser
+passwd testuser
+groupadd developers
+usermod -aG developers testuser
+id testuser
+```
+
+## Result
+
+The user was successfully created and added to the developers group.
