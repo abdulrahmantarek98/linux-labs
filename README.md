@@ -12,8 +12,8 @@ This repository contains my hands-on Linux System Administration labs.
 |------|-------|--------|
 | 01 | Users and Groups | ✅ Completed |
 | 02 | File Permissions | ⏳ Coming Soon |
-| 03 | File Management | ⏳ Coming Soon |
-| 04 | Networking | ⏳ Coming Soon |
+| 03 | User Age | ⏳ Coming Soon |
+| 04 | File Management | ⏳ Coming Soon |
 | 05 | Bash Scripting | ⏳ Coming Soon |
 
 ## Skills Covered
