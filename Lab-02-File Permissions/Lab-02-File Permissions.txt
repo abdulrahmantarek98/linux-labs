@@ -1,0 +1,51 @@
+# Linux Lab 02 - File Permissions
+
+## Objective
+
+Learn how to:
+- View permissions
+- Change permissions
+- Change file ownership
+
+---
+
+## Commands
+
+```bash
+touch notes.txt
+
+ls -l
+
+chmod 600 notes.txt
+
+chmod 644 notes.txt
+
+sudo chown testuser notes.txt
+
+ls -l
+```
+
+---
+
+## Expected Output
+
+Example:
+
+```text
+-rw------- notes.txt
+```
+
+After changing permissions:
+
+```text
+-rw-r--r-- notes.txt
+```
+
+---
+
+## What I Learned
+
+- `chmod` changes file permissions.
+- `chown` changes file ownership.
+- `ls -l` displays file permissions.
+- Permissions determine who can read, write, or execute a file.
