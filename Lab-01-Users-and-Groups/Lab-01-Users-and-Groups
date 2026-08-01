@@ -1,18 +1,50 @@
                                                   Lab 01 - Users and Groups
 
------- Objective----------
-Learn how to create users and groups.
+# Linux Lab 01 - Users and Groups
+
+## Objective
+
+Learn how to:
+- Create a new user
+- Create a new group
+- Add a user to a group
+- Verify group membership
+
+---
+
 ## Commands
 
 ```bash
-useradd testuser
-adduser testuser (another way)
-passwd testuser
-groupadd developers
-usermod -aG developers testuser
+sudo useradd testuser
+sudo passwd testuser
+
+sudo groupadd developers
+
+sudo usermod -aG developers testuser
+
 id testuser
 ```
 
-## Result
+---
 
-The user was successfully created and added to the developers group.
+## Expected Output
+
+The user should belong to the `developers` group.
+
+Example:
+
+```text
+uid=1001(testuser)
+gid=1001(testuser)
+groups=1001(testuser),1002(developers)
+```
+
+---
+
+## What I Learned
+
+- Linux separates users and groups.
+- A user can belong to multiple groups.
+- The `id` command displays user and group information.
+- `usermod -aG` adds a user to an existing group.
+
