@@ -16,9 +16,9 @@ touch notes.txt
 
 ls -l
 
-chmod 600 notes.txt
+sudo chmod 600 notes.txt
 
-chmod 644 notes.txt
+sudo chmod 644 notes.txt
 
 sudo chown testuser notes.txt
 
